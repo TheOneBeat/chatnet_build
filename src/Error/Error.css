@@ -1,0 +1,31 @@
+.Error-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.Error-span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Error-span span
+{
+    font-size: 18rem;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+
+.Error-container p
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255,0,0,0.9);
+    text-shadow: 2px 2px 2px black;
+}

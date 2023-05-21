@@ -1,0 +1,210 @@
+.MyProfilContainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 92vh;
+    width: 100%;
+    background-color: rgb(28, 23, 23);
+    
+}
+
+.MyProfilContainer .initInfo
+{
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+    background-color: rgb(28, 23, 23);
+    border-radius: 5px;
+    border: 0.5px solid rgb(193, 178, 158);
+}
+
+.MyProfilContainer .initInfo .profil-img
+{
+    width: 25%;
+    height: 30%;
+    background-color: rgb(246, 199, 138);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin:0 10px 0 0; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:8px;
+}
+
+.MyProfilContainer .initInfo .profil-img .img
+{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.MyProfilContainer .initInfo .profil-img button
+{
+    width: 110px;
+    height: 30px;
+    border-radius: 9999px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.MyProfilContainer .initInfo .profil-img button:hover
+{
+    background-color:white;
+    color:#333;
+}
+
+.MyProfilContainer .initInfo .personalInfo
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 23, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.MyProfilContainer .initInfo .personalInfo .Info
+{
+    width:100%;
+    height: 100px;
+    background-color: #2b2828;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 5px; */
+}
+
+.MyProfilContainer .initInfo .personalInfo .Info div
+{
+    width: 300px;
+    height: 60%;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+.MyProfilContainer .initInfo .personalInfo .Info div label
+{
+    width: 120px;
+    height: 100%;
+    /* background-color: darkgray; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: 1rem;
+    color:white;
+}
+
+.MyProfilContainer .initInfo .personalInfo .Info div input
+{
+    width: 150px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    border-radius: 10px;
+    resize: none;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-right: auto;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MyProfilContainer .initInfo .personalInfo .mainInfo
+{
+    width: 100%;
+    height: 200px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    /* margin:10px 0 0; */
+}
+
+.MyProfilContainer .initInfo .personalInfo .mainInfo label
+{
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+
+.MyProfilContainer .initInfo .personalInfo .mainInfo textarea
+{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    padding:5px;
+    font-size: 1.2rem;
+}
+
+
+.MyProfilContainer form button
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 9999px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.MyProfilContainer h1
+{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.MyProfilContainer p
+{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.MyProfilContainer p::before
+{
+    content: open-quote;
+}
+.MyProfilContainer p::after
+{
+    content: close-quote;
+}
+
+.MyProfilContainer form button:hover
+{
+    background-color: #333;
+    color:white;
+}

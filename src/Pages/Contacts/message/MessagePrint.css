@@ -1,0 +1,59 @@
+.messageCard{
+    width:70%;
+    height: auto;
+    display:flex;
+    justify-content: start;
+    color:white;
+    margin:5px 0;
+    font-family: 'Whitney', sans-serif;
+}
+
+.messageCard .auth_img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 5px 5px 15px;
+}
+
+.messageCard .message_descript
+{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.messageCard .message_descript .message_auth span
+{
+    padding-right:5px;
+}
+
+.messageCard .message_descript .message_auth span:nth-child(1)
+{
+    font-size:18px;
+}
+
+.messageCard .message_descript .message_auth span:nth-child(2)
+{
+    font-size: 10px;
+    padding:2px 0 0 2px; 
+    font-weight: 500;
+    color: #9c9999;
+}
+
+
+.messageCard .message_descript .message_auth
+{
+    display: flex;
+    align-items: center;
+}
+
+.messageCard .message_descript p
+{
+    line-height: 1.3;
+    font-size: 18px;
+    color: #f1f1f1;
+}

@@ -1,0 +1,35 @@
+.contact-box
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.contact-box:hover
+{
+    background-color: #2c2a2a;
+}
+
+.contact-box .box-image
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.contact-box span
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757272;
+}
+
+.contact-box.active span{
+    color:white;
+}

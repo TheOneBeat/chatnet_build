@@ -1,0 +1,87 @@
+.Card
+{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6c6464;
+}
+
+.Card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.Card h2{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Card .links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.links
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    height: 45px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.links a:hover
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+.Card .links button
+{
+    border: none;
+    outline: none;
+    background-color: coral;
+    color: #fff;
+    font-size: 1rem;
+    height: 45px;
+    padding: 5px;
+    width:120px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Card .links button:hover
+{
+    background-color: #fff;
+    color: coral;
+}
