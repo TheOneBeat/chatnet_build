@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chatnet_build/static/css/main.8c7736cc.css",
+    "main.js": "/chatnet_build/static/js/main.2864ba39.js",
+    "index.html": "/chatnet_build/index.html",
+    "main.8c7736cc.css.map": "/chatnet_build/static/css/main.8c7736cc.css.map",
+    "main.2864ba39.js.map": "/chatnet_build/static/js/main.2864ba39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c7736cc.css",
+    "static/js/main.2864ba39.js"
+  ]
+}
